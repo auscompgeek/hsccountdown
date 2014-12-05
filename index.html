@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HSC 2014 Final Countdown</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.0/cyborg/bootstrap.min.css" />
+	<style>#timer{text-align:center}audio{display:block;margin:auto}#event,#countdown{font-size:3em}</style>
+</head>
+<body>
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">HSC 2014 Final Countdown</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="//vovo.id.au">by David Vo</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="//studentsonline.bos.nsw.edu.au">Students Online</a></li>
+					<li><a href="//www.hscresults.nsw.edu.au">HSC Results</a></li>
+					<li><a href="//www.hsc-results.nsw.edu.au">(mirror)</a></li>
+					<li><a href="http://www.uac.edu.au">UAC</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<noscript><div class="alert alert-danger"><p>Turn on JavaScript you autist neckbeard.</p></div></noscript>
+
+		<div id="timer">
+			<!--<p id="prev" style="display:none"></p>-->
+			<p id="countdown">A few seconds</p>
+			<p>until</p>
+			<p id="event">something happens...</p>
+		</div>
+
+		<!-- THE FINAL COUNTDOOOOWWWN -->
+		<audio autoplay controls loop>
+			<source src="//d2g9v1gts353nd.cloudfront.net/tumblr_mmt6v8XCeQ1spqkrwo1.mp3" type="audio/mpeg" />
+			<source src="//archive.org/download/TheFinalCountdown-Europe/Europe-TheFinalCountdown.mp3" type="audio/mpeg" />
+		</audio>
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js" async defer></script>
+	<script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.0.4/dist/jquery.countdown.min.js" defer></script>
+	<script src="data.js" async defer></script>
+	<script src="countdown.js" async defer></script>
+</body>
+</html>
