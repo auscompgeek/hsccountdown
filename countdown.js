@@ -55,4 +55,9 @@ function finishCountdown() {
 	setTimeout(theFinalCountdown, 15000);
 }
 
+function switchEvents() {
+	things = things == events ? exams : events;
+	theFinalCountdown();
+}
+
 $(theFinalCountdown);
