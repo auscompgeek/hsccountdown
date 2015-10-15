@@ -13,9 +13,9 @@ if (typeof Object.keys !== "function") {
 
 function theFinalCountdown() {
 	var idx = 0;
-	var now = new Date().toISOString();
+	var now = Date.now();
 	var times = Object.keys(things).sort();  // sort just in case
-	while (idx < times.length && times[idx] < now) {
+	while (idx < times.length && Date.parse(times[idx]) < now) {
 		++idx;
 	}
 	if (idx === times.length) {
