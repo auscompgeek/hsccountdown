@@ -28,6 +28,22 @@ var exams = {
 	"2015-10-22T13:55+1100": "Senior Science, German Ext",
 	"2015-10-23T09:25+1100": "Chemistry, Aboriginal Studies, VET Tourism",
 	"2015-10-23T13:55+1100": "CAFS, SDD, Classical Greek, Heritage Korean",
+	"2015-10-26T09:25+1100": "Modern History",
+	"2015-10-26T13:55+1100": "Maths Ext 1, VET Entertainment",
+	"2015-10-27T09:25+1100": "Physics",
+	"2015-10-27T13:55+1100": "Classical Greek Ext, VET Construction",
+	"2015-10-28T09:25+1100": "Business Studies",
+	"2015-10-28T13:55+1100": "Textiles, VET IDT, VET Metal, Chinese Continuers, Korean Background/Continuers, Malay Background",
+	"2015-10-29T09:25+1100": "Studies of Religion",
+	"2015-10-29T13:55+1100": "Italian, VET Electrotechnology",
+	"2015-10-30T09:25+1100": "Industrial Technology, Chinese Ext, Heritage Chinese",
+	"2015-10-30T13:55+1100": "French, Modern Greek, VET Human Services",
+	"2015-11-02T09:25+1100": "History Ext, Italian Ext",
+	"2015-11-02T13:55+1100": "D&T",
+	"2015-11-03T09:25+1100": "Geography",
+	"2015-11-03T13:55+1100": "Drama",
+	"2015-11-04T09:25+1100": "Food Tech, French Ext, Modern Greek Ext",
+	"2015-11-04T13:55+1100": "Visual Arts"
 };
 
 var things = events;
