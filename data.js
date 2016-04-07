@@ -1,8 +1,8 @@
 var events = {
-	"2015-10-12T10:20+1100": "HSC written exams commence",
-	"2015-11-04T15:30+1100": "No more HSC exams!",
-	"2015-12-16T06:00+1100": "HSC results are released",
-	"2015-12-17T09:00+1100": "ATARs are released"
+	"2016-10-13T10:20+1100": "HSC written exams commence",
+	"2016-11-04T15:30+1100": "No more HSC exams!",
+	"2016-12-15T06:00+1100": "HSC results are released",
+	"2016-12-16T09:00+1100": "ATARs are released"
 };
 
 var exams = {
