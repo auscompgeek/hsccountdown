@@ -27,13 +27,15 @@ function theFinalCountdown() {
 }
 
 function setCountdown(time) {
-	$("#countdown").countdown(new Date(time))
+	var date = new Date(time);
+	$("#countdown").countdown(date)
 	.on("update.countdown", updateCountdown)
 	.on("finish.countdown", finishCountdown);
 
 	var stuff = things[time];
 	if (stuff.join) stuff = stuff.join(", ");
 	$("#event").text(stuff);
+	$("#eventtime").text(date.toLocaleFormat());
 }
 
 function updateCountdown(event) {
